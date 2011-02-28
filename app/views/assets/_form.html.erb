@@ -1,0 +1,36 @@
+<% form_for @asset do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :serial_number %><br /> 
+    <%= f.text_field :serial_number %>
+  </p>
+  <p>
+    <%= f.label :room_number %><br />
+    <%= f.text_field :room_number %>
+  </p>
+  <p>
+    <%= f.label :model_number %><br />
+    <%= f.text_field :model_number %>
+  </p>
+  <p>
+    <%= f.label :product_description %><br />
+    <%= f.text_area :product_description %>
+  </p>
+  <p>
+    <%= f.label :date_installed %><br />
+    <%= f.date_select :date_installed %>
+  </p>
+  <p>
+    <%= f.label :pat_test, "Last PAT Test" %><br />
+    <%= f.date_select :pat_test %>
+  </p>
+  <p>
+    <%= f.label :renewal_date, "PAT Test Due on" %><br />
+    <%= f.date_select :renewal_date %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+  
+<% end %>

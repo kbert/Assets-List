@@ -1,0 +1,15 @@
+<% title "Assets" %>
+
+<% for asset in @assets %>
+<table>
+      
+
+<td><%=h link_to "#{asset.serial_number}",asset%></td>
+        
+
+    
+<% end %>
+</table>
+
+<p><%= link_to "New Asset", new_asset_path %></p>
+<%= link_to 'Logout', login_path %>

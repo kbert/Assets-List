@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  serial_number: MyString
+  room_number: MyString
+  model_number: MyString
+  product_description: MyText
+  date_installed: 2011-02-16
+  pat_test: 2011-02-16
+  renewal_date: 2011-02-16
+
+two:
+  serial_number: MyString
+  room_number: MyString
+  model_number: MyString
+  product_description: MyText
+  date_installed: 2011-02-16
+  pat_test: 2011-02-16
+  renewal_date: 2011-02-16

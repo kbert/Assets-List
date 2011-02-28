@@ -1,0 +1,38 @@
+<h1> Show Asset </h1>
+
+<p>
+  <b>Serial Number:</b>
+  <%=h @asset.serial_number %>
+</p>
+
+<p>
+  <b>Room number:</b>
+  <%=h @asset.room_number %>
+</p>
+
+<p>
+  <b>Model number:</b>
+  <%=h @asset.model_number %>
+</p>
+
+<p>
+  <b>Product description:</b>
+  <%=h @asset.product_description %>
+</p>
+
+<p>
+  <b>Date installed:</b>
+  <%=h @asset.date_installed %>
+</p>
+
+<p>
+  <b>Pat test:</b>
+  <%=h @asset.pat_test %>
+</p>
+
+<p>
+  <b>Renewal date:</b>
+  <%=h @asset.renewal_date %>
+</p>
+
+<p><%= link_to "View All", assets_path %> | <%= link_to "Edit", edit_asset_path %> | <%= link_to "destroy", @asset,:method => :destroy %></p>
